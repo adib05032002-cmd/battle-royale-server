@@ -1,1 +1,15 @@
 
+{
+  "name": "battle-royale-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multiplayer server for our original battle royale game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
+
